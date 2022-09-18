@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #D3D3D3;
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width:5rem;
+}
+.logo-pluse{
+    width: 1rem;
+}
+.text {
+    font-size: small;
+}
+nav ul a{
+    text-decoration:none;
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul a:hover{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.serach-button{
+    width: 6rem;
+    margin:0 1rem;
+    border-radius: 2px;
+    border-color:transparent ;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.serach-button:hover{
+    width: 6rem;
+    margin:0 1rem;
+    border-radius: 2px;
+    border-color:white ;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.input-seacrh{
+    width: 30rem !important;
+    padding: 0 2rem !important;
+    height: 2rem !important;
+    border-radius: 2px;
+    border-color:white ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* nav section end */
+
+/* card section */
+
+   
+.card-section-img{
+    width: 4rem !important;
+    margin: 20px 40px !important;
+}
+.card-para{
+    margin: 0px 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+.card-para:hover{
+    margin: 0px 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: #0275d8;
+    font-weight: 600;
+}
+.all-center{
+    align-items: center;
+    text-align: center;
+}
+/* .best-img{
+    width: 65%;
+} */
+.card-section div img:hover{
+    width: 60%;
+}
